@@ -39,7 +39,7 @@
 
 0. Replace your target's lib/netifd/wireless/ralink.sh with ralink.sh
 
-0. Rewrite /etc/config/wireless 
+0. Rewrite /etc/config/wireless --
    `uci set wireless.sta.disabled="1"`
    `uci commit`
 
@@ -49,7 +49,7 @@
 
 0. Replace your target's lib/netifd/wireless/ralink.sh with ralink.sh
 
-0. Rewrite /etc/config/wireless 
+0. Rewrite /etc/config/wireless --
    `uci set wireless.sta.disabled="0"`
    `uci set wireless.sta.apcli="0"`
    `uci commit`

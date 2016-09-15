@@ -23,11 +23,11 @@
    +++option apcli '1' (ps: enabled ap-client mode)
    ```
    or 
-   `uci set wireless.sta.ssid="RootAP_SSID"`
-   `uci set wireless.sta.key="RootAP_password"`
-   `uci set wireless.sta.encryption="psk2"`
-   `uci set wireless.sta.disabled="0"`
-   `uci set wireless.sta.apcli="1"`
+   `uci set wireless.sta.ssid="RootAP_SSID"`\\
+   `uci set wireless.sta.key="RootAP_password"`\\
+   `uci set wireless.sta.encryption="psk2"`\\
+   `uci set wireless.sta.disabled="0"`\\
+   `uci set wireless.sta.apcli="1"`\\
    `uci commit`
 
 

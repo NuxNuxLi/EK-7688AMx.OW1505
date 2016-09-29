@@ -56,3 +56,15 @@
 
 0. Restart network -- `wifi`
 
+## How to use elian(MTK smart connection)?
+
+0. Install elian apk
+
+0. Download wifi driver with elian in [linkit-smart-EK-7688AMx-feed](https://github.com/NuxNuxLi/linkit-smart-EK-7688AMx-feed)
+
+0. Start elian `iwpriv apcli0 elian start`
+
+0. Get elian result `iwpriv apcli0 elian result`
+
+0. Stop elian `iwpriv apcli0 elian stop`
+

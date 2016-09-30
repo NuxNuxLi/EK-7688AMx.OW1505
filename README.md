@@ -64,6 +64,8 @@
 
 0. Start elian `iwpriv apcli0 elian start`
 
+0. Run elain apk, input your password and press Send V4
+
 0. Get elian result `iwpriv apcli0 elian result`
 
 0. Stop elian `iwpriv apcli0 elian stop`
